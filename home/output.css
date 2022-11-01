@@ -1,0 +1,54 @@
+
+.navbar > ul > li > a {
+  display: flex;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  color: #f3f4f6;
+}
+
+li {
+  text-decoration: none;
+  overflow: hidden;
+}
+
+li > a {
+  color: #f3f4f6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  background-color: #1e293b;
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
+.header {
+  width: 95%;
+  /* height: 76vh; */
+  margin: auto;
+}
+
+.header > h2 {
+  text-align: center;
+  color: #f3f4f6;
+  margin-bottom: 25px;
+}
+
+.header > p {
+  color: #f3f4f6;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  color: #f3f4f6;
+  text-align: center;
+  margin-top: 190px;
+}

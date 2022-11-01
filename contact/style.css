@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #1e293b;
+}
+
+nav > ul {
+  display: flex;
+  gap: 20px;
+  color: #f3f4f6;
+}
+
+nav > ul > li {
+  overflow: hidden;
+}
+
+nav > ul > li > a {
+  color: #f3f4f6;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.datadiri {
+  margin-left: 10px;
+  color: #f3f4f6;
+  font-family: "Roboto", sans-serif;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.icons > a {
+  color: #f3f4f6;
+}
+
+.icons>a:hover {
+    color: aquamarine;
+    transition-duration: 200ms;
+}
+
+footer{
+    color: #f3f4f6;
+    text-align: center;
+    margin-top: 145px;
+}
